@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #7e6657, #ddbc95) no-repeat fixed;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+
+.video-container {
+    margin: 5px 0 0 0;
+    position: relative;
+    height: 50vh; /*//TODO убери строку чтоб сделать видео на фулл*/
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.description {
+    padding: 20px
+}
+
+.description-container {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.photo-container {
+    flex: 2;
+}
+
+.photo {
+    border-radius: 0 20px 20px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description-tittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px; /*//TODO сделай 25 если надо больше*/
+    background-color: white;
+    height: 53px; /*//TODO сделай 60 если надо больше*/
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px 0 0 0;
+}
+
+footer {
+    margin: 0 0 5px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #ffffff;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 20px;
+}
+
+.footer-social-media {
+    margin: 10px 0 0 0;
+}
+
+.footer-address a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-address a:hover {
+    color: rgb(9, 99, 222);
+}
+
+
+
+
+
+
+
+
