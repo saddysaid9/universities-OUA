@@ -13,16 +13,20 @@ body {
     /*background-color:#00132c ;*/
 
 }
+
 .header-logo {
     margin-left: 20px;
 }
+
 #nav-links a {
     color: white;
 }
+
 .nav a:hover {
     color: rgb(8, 55, 120);
 }
-.navigation-buttons{
+
+.navigation-buttons {
     background-color: transparent;
     color: white;
     border: none;
@@ -32,22 +36,26 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-.navigation-buttons:hover{
+
+.navigation-buttons:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
     background: linear-gradient(to bottom, #071b2f, #457391) no-repeat fixed;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 0 0 10px 10px;
     width: 100%;
 }
+
 .dropdown-content a {
     display: block;
     width: 100%;
@@ -55,19 +63,24 @@ body {
     text-align: center;
     cursor: pointer;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.sub-link{
+
+.sub-link {
     text-decoration: none;
 }
-.sub-link:hover{
+
+.sub-link:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
-.sub-link:nth-child(2):hover{
-   border-radius: 0 0 10px 10px;
+
+.sub-link:nth-child(2):hover {
+    border-radius: 0 0 10px 10px;
 }
-.sub-button{
+
+.sub-button {
     background-color: transparent;
     border: none;
     color: white;

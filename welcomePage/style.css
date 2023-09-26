@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #7e6657, #ddbc95) no-repeat fixed;
+    background: linear-gradient(to bottom, #1f150e, #ddbc95) no-repeat fixed;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -20,7 +20,7 @@ a {
 .video-container {
     margin: 5px 0 0 0;
     position: relative;
-    height: 50vh; /*//TODO убери строку чтоб сделать видео на фулл*/
+     /*//TODO убери строку чтоб сделать видео на фулл*/
     overflow: hidden;
 }
 
