@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #d0e1f9;
+    background: linear-gradient(to bottom, #009ca6, #7ec7d5) no-repeat fixed;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -9,7 +9,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-color: #5cc5ef;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 .navigation-buttons:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .dropdown {
@@ -43,7 +42,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: linear-gradient(to bottom, #00d0ff, #ffffff) no-repeat fixed;
+    background: linear-gradient(to bottom, #01cee1, #46aec4) no-repeat fixed;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 0 0 10px 10px;
@@ -106,7 +105,7 @@ footer {
 }
 
 .footer-address a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
 }
 
