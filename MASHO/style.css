@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #fafafa, #ffffff) no-repeat fixed;
+    background: linear-gradient(to bottom, #0A2B4B, #c3f3ff) no-repeat fixed;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -9,7 +9,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-color: #0A2B4B;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -33,7 +32,7 @@ body {
 }
 
 .navigation-buttons:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .dropdown {
@@ -68,7 +67,7 @@ body {
 }
 
 .sub-link:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .sub-link:nth-child(2):hover {
