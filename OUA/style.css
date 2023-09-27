@@ -1,80 +1,32 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom,#001E3F , #457391) no-repeat fixed;
+    background: linear-gradient(to bottom, #001E3F, #457391) no-repeat fixed;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 a {
     text-decoration: none;
 }
 
-.header {
+.header-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:30px;
-
+align-items: center;
 }
+
+.header-wrapper a {
+    color: white;
+}
+
 .header-logo {
     margin-left: 20px;
 }
-#nav-links a {
-    color: white;
+
+.header-nav-links{
+    width: 100% ;
+
 }
-.nav a:hover {
-    color: rgb(8, 55, 120);
-}
-.navigation-buttons{
-    background-color: transparent;
-    color: white;
-    border: none;
-    width: 100%;
-    height: 120%;
-    transition: background-color 0.6s, color 0.6s;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.navigation-buttons:hover{
-    background-color: rgba(0, 0, 0, 0.2);
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background: linear-gradient(to bottom, #071b2f, #457391) no-repeat fixed;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 0 0 10px 10px;
-    width: 100%;
-}
-.dropdown-content a {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.sub-link{
-    text-decoration: none;
-}
-.sub-link:hover{
-    background-color: rgba(0, 0, 0, 0.2);
-}
-.sub-link:nth-child(2):hover{
-   border-radius: 0 0 10px 10px;
-}
-.sub-button{
-    background-color: transparent;
-    border: none;
-    color: white;
-}
+
+
 
 .wrapper {
     display: flex;
@@ -127,25 +79,32 @@ footer {
     justify-content: center;
     width: 100%;
 }
+
 .footer-main {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin: 10px 20px;
 }
+
 .footer-social-media {
     margin: 10px 0 0 0;
 }
+
 .footer-address a {
     color: white;
     text-decoration: none;
 }
+
 .footer-social-media a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
 }
+
 .footer-address a:hover {
     color: rgb(0, 18, 54);
 }
+
+
 
