@@ -11,20 +11,18 @@ a {
 
 header {
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: center;
     font-family: 'Roboto Condensed', sans-serif;
 }
-=======
 
-    justify-content: center;
-    font-family: 'Roboto Condensed', sans-serif;
-}
+
+/*    justify-content: center;*/
+/*    font-family: 'Roboto Condensed', sans-serif;*/
+/*}*/
 .header-logo{
     margin: 30px 10px 0 10px;
 }
->>>>>>> master
 
 #nav-links a {
     color: white;
@@ -101,10 +99,7 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px;
-<<<<<<< HEAD
-=======
     padding:0 0 10px 0 ;
->>>>>>> master
 }
 
 .photo {
