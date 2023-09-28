@@ -1,6 +1,7 @@
 body {
      margin: 0;
-     background: linear-gradient(to bottom, #326c66, #58bea3) no-repeat fixed;
+
+     background: linear-gradient(to bottom, #1b3a37, #58bea3) no-repeat fixed;
      font-family: 'Roboto Condensed', sans-serif;
  }
 .header {

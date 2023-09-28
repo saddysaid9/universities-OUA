@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #01cee1, #46aec4) no-repeat fixed;
+    background: linear-gradient(to bottom, #00838c, #70cde3) no-repeat fixed;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -43,7 +43,7 @@ body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: linear-gradient(to bottom, #01cee1, #46aec4) no-repeat fixed;
+    background: linear-gradient(to bottom, #00838c, #70cde3) no-repeat fixed;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 0 0 10px 10px;
